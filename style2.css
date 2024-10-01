@@ -395,6 +395,76 @@ footer {
 .footer_section .follow_us i:hover {
     color: var(--secondary-color);
 }
+/* Media Query for Mobile View */
+@media only screen and (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .hero_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero_container .image_section img {
+        height: 400px;
+    }
+
+    .about_container, 
+    .about_container1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_container .image_section, 
+    .about_container1 .image_section1 {
+        max-width: 100%;
+    }
+
+    .about_container .text_section, 
+    .about_container1 .text_section1 {
+        max-width: 100%;
+    }
+
+    .gallery .gallery_container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .gallery_container .gallery_items {
+        width: 100%;
+    }
+
+    .contact_container {
+        flex-direction: column;
+    }
+
+    .contact_container .contact_form {
+        max-width: 100%;
+    }
+
+    .contact_text .contact_items {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .location_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer_section {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 
 
 
